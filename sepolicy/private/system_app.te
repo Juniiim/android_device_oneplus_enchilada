@@ -1,0 +1,7 @@
+hal_client_domain(system_app, hal_cameraHIDL)
+hal_client_domain(system_app, hal_display)
+hal_client_domain(system_app, hal_faceunlock)
+hal_client_domain(system_app, hal_hdcpkey)
+hal_client_domain(system_app, hal_ifaa)
+hal_client_domain(system_app, hal_param)
+hal_client_domain(system_app, hal_rpmb)
