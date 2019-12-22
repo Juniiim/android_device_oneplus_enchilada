@@ -43,4 +43,3 @@ hal_client_domain(hal_display_default, hal_allocator)
 binder_call(hal_display_client, hal_display_server)
 binder_call(hal_display_server, hal_display_client)
 allow hal_display_client hal_display_hwservice:hwservice_manager find;
-

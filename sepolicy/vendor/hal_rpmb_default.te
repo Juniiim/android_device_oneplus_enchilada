@@ -43,4 +43,3 @@ hal_client_domain(hal_rpmb_default, hal_allocator)
 binder_call(hal_rpmb_client, hal_rpmb_server)
 binder_call(hal_rpmb_server, hal_rpmb_client)
 allow hal_rpmb_client hal_rpmb_hwservice:hwservice_manager find;
-

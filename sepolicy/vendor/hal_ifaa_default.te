@@ -43,4 +43,3 @@ hal_client_domain(hal_ifaa_default, hal_allocator)
 binder_call(hal_ifaa_client, hal_ifaa_server)
 binder_call(hal_ifaa_server, hal_ifaa_client)
 allow hal_ifaa_client hal_ifaa_hwservice:hwservice_manager find;
-

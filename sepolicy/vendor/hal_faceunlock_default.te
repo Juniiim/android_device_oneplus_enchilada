@@ -43,4 +43,3 @@ hal_client_domain(hal_faceunlock_default, hal_allocator)
 binder_call(hal_faceunlock_client, hal_faceunlock_server)
 binder_call(hal_faceunlock_server, hal_faceunlock_client)
 allow hal_faceunlock_client hal_faceunlock_hwservice:hwservice_manager find;
-

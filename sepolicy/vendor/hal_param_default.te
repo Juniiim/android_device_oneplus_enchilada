@@ -43,4 +43,3 @@ hal_client_domain(hal_param_default, hal_allocator)
 binder_call(hal_param_client, hal_param_server)
 binder_call(hal_param_server, hal_param_client)
 allow hal_param_client hal_param_hwservice:hwservice_manager find;
-
